@@ -1,0 +1,36 @@
+.header__lang_link {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    line-height: 28px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.header__lang_link:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__lang_link {
+        max-width: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang_link {
+        max-width: 29px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang_link {
+        max-width: 22px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

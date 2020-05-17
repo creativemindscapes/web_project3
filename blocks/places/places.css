@@ -1,0 +1,49 @@
+
+.places {
+    margin: 0;
+    padding: 82px 110px 0;
+    max-width: 984px;
+    align-content: flex-start;
+}
+
+@media screen and (max-width: 1279px) {
+    .places {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .places {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .places {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .places {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .places {
+        padding-right: 16px;
+        padding-left: 16px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    .places {
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+}

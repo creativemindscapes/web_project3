@@ -1,0 +1,27 @@
+.footer__list-item_link {
+    max-width: 42px;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color:white;
+}
+
+.footer__list-item_link:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__list-item_link {
+        max-width: 64px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__list-item_link {
+        max-width: 64px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

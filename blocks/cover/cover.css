@@ -1,0 +1,65 @@
+@import url(__item/cover__item.css);
+@import url(__title/cover__title.css);
+@import url(__paragraph/cover__paragraph.css);
+
+.cover {
+    margin: 92px 48px 0;
+    background-image: url(../../images/background.png);
+    max-width: 1184px;
+    height: 740px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.cover::before {
+    content: "#";
+    height: 100%;
+    width: 100%;
+    background: #2a2c2f;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        margin: 88px 0 0;
+        width: 100vw;
+        height: calc(100vw * (740 / 1280));
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        margin: 88px 0 0;
+        width: 100vw;
+        height: calc(100vw * (640 / 1024));
+     }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin: 88px 0 0;
+        width: 100vw;
+        height: calc(100vw * (480 / 768));
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .cover {
+        margin: 64px 0 0;
+        width: 100vw;
+        height: calc(100vw * (200 / 320));
+    }
+}
