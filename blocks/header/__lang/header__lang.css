@@ -1,6 +1,18 @@
+@import url('_link/header__lang_link.css');
+@import url('_link-active/header__lang_link-active.css');
+
 .header__lang {
     margin: 0;
-    padding-top: 12px;
-    display: flex;
+    padding-top: 14px;
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    column-gap: 18px;
     list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header__lang {
+        padding-top: 14px;
+        grid-template-columns: 22px 1fr;
+    }
 }

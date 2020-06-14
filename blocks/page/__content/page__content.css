@@ -1,0 +1,29 @@
+.page__content {
+    margin: 0; 
+    min-width: 320;
+    padding-left: 100px;
+}
+/*
+@media screen and (min-width: 768px) {
+  .page__content {
+      min-width: 1184;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page__content {
+      min-width: 1024;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page__content {
+      min-width: 1184;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+}

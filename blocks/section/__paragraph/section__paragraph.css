@@ -1,0 +1,12 @@
+.section__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+@media screen and (min-width: 1024px) {
+    .section__paragraph {
+        font-size: 18px;
+        line-height: 30px;;
+    }
+}
+

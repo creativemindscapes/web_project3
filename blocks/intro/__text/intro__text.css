@@ -1,23 +1,21 @@
 .intro__text {
-    margin: 32px 0 0;
-    max-width: 690px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    margin: 0;
     font-size: 16px;
     line-height: 26px;
-    color: white;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 32px;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .intro__text {
-        max-width: 720px;
-    }
-}
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) {
     .intro__text {
-        padding: 0;
-        max-width: 288px;
+        width: 720px;
     }
-}
+}   
+
+@media screen and (min-width: 1024px) {
+    .intro__text {
+        width: 690px;
+    }
+}  

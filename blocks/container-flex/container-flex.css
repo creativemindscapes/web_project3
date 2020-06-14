@@ -1,0 +1,26 @@
+.container-flex {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-flex {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-flex {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (min-width: 1280) {
+    .container-flex {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}

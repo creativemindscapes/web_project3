@@ -1,0 +1,19 @@
+.footer__list-link {
+    max-width: 64px;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__list-link {
+        max-width: 64px;
+    }
+}
+
+.footer__list-link:hover {
+cursor: pointer;
+transition: 0.5s;
+opacity: 0.8;
+}
